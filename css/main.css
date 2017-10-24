@@ -1,0 +1,50 @@
+header{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  height: 30%;
+}
+
+figure{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  width: 40px;
+  height: 40px;
+}
+
+.busqueda , .barra-navegacion li {
+  display: inline-block;
+  list-style: none;
+}
+
+.icons{
+  display: inline-block;
+  position: absolute;
+  right:25pX ;
+  top:10px;
+}
+
+.icons li{
+  display: inline-block;
+  font-size: 20px;
+  color: #C0C1C1;
+  padding-left:15px ;
+  padding-right: 15px ;
+
+}
+
+/*#enlace-1{
+padding: 20px;
+background:#6E6347 ;
+
+
+}
+
+.barra-navegacion li a{
+  text-decoration: none;
+  color:#fff ;
+}*/
