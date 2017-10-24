@@ -12,24 +12,35 @@ figure{
 }
 
 img{
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
+  padding-left: 12px;
+  padding-right: 10px;
 }
 
-.busqueda , .barra-navegacion li {
+.search{
   display: inline-block;
-  list-style: none;
+  width: 200px;
 }
 
 .icons{
-  display: inline-block;
   position: absolute;
   right:25pX ;
   top:10px;
 }
 
-.icons li{
+.barra-navegacion{
+  padding-left:14px ;
+}
+
+.icons li, .barra-navegacion li {
   display: inline-block;
+  list-style: none;
+}
+
+
+.icons li{
+  
   font-size: 20px;
   color: #C0C1C1;
   padding-left:15px ;
@@ -37,14 +48,67 @@ img{
 
 }
 
-/*#enlace-1{
-padding: 20px;
+.barra-navegacion li{
+  padding: 20px;
+  margin:5px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+
+#enlace-1{
+width:100px;
 background:#6E6347 ;
 
+}
+
+#enlace-2{
+  width:70px;
+  background:#B48C74 ;
+}
+
+#enlace-3{
+  width:50px;
+  background:#B48C74 ;
+}
+
+#enlace-4{
+  width:30px;
+  background:#B48C74 ;
+}
+
+#enlace-5{
+  width:100px;
+  background:#B48C74 ;
+}
+
+#enlace-6{
+  width:70px;
+  background:#B48C74 ;
+}
+
+#enlace-7{
+  width:50px;
+  background:#B48C74 ;
+}
+
+#enlace-8{
+  width:70px;
+  background:#B48C74;
+}
+
+#enlace-9{
+  width:60px;
+  background:#B48C74 ;
+  margin-left:50%;
+  margin-top: 0;
+  transform: translateX(-60%);
 
 }
+
 
 .barra-navegacion li a{
   text-decoration: none;
   color:#fff ;
-}*/
+  font-family: 'Source Sans Pro', sans-serif
+}
